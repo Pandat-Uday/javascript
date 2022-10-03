@@ -1,0 +1,25 @@
+<html>
+  <head>
+    <title>Concate Two Arrays</title>
+  </head>
+  <body>
+    <h1>Concat Two Arrays</h1>
+    <script>
+      function concat(arr1, arr2) {
+        var a = [];
+
+        for (var i = 0; i < arr1.length; i++) {
+          a.push(arr1[i]);
+        }
+
+        for (var j = 0; j < arr2.length; j++) {
+          a.push(arr2[j]);
+        }
+        return a;
+      }
+
+      var u = concat([1, 2, 3], [11, 12, 13]);
+      console.log(u);
+    </script>
+  </body>
+</html>
