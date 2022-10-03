@@ -1,0 +1,44 @@
+body {
+  background-color: pink;
+}
+
+.awm {
+  margin-top: 80px;
+  margin-left: 400px;
+  color: rgb(51, 48, 48);
+}
+
+input {
+  background-color: pink;
+  text-align: center;
+  font-size: 25px;
+  border-radius: 10px;
+  margin-top: 30px;
+  border: 5px white solid;
+}
+
+button {
+  text-align: center;
+  font-size: 30px;
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+}
+
+li {
+  font-size: 30px;
+  margin-top: 25px;
+}
+
+ul {
+  margin: auto;
+}
+
+h3 {
+  margin-left: 150px;
+}
+
+p {
+  font-size: 30px;
+  margin-left: 100px;
+}
